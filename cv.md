@@ -9,7 +9,7 @@ I'm 19 years old. I think that my main job currently is to study. I have a lot o
 * self-study and self-development
 * communication skils
 * listening skills and skills of asking questions
----
+___
 ## List of skills:
 - HTML5
 - CSS3 (Bootstrap)
@@ -18,8 +18,8 @@ I'm 19 years old. I think that my main job currently is to study. I have a lot o
 - SQL (MySQL, MSSQL, PostgreSQL)
 - Git
 - Figma
----
-### Code example
+___
+## Code example
 ```
 /* This function returns number of sorted digits by descending order */
     function descendingOrder(n){
@@ -33,7 +33,7 @@ I'm 19 years old. I think that my main job currently is to study. I have a lot o
     }
 /* Example: n = 122351, function returns 532211 */
 ```
----
+___
 ## Education 
 Nowadays I'm a 2nd year student of the BSUIR (Faculty of Information Tecnologies and Control, major at the automated systems  of data processing). I chose this university because I like everything that have connect with programming and mathematics. Besides university I learn programming myself thanks to Learn/javascript.ru, habr, Result School and Rolling Scopes School.
 ___
