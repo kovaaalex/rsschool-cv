@@ -1,15 +1,14 @@
 # Aliaksei Kavalenka
 ## Contact info:
-* [insta](https://www.instagram.com/kovaaalex/)
-* [telegram](https://t.me/kovaaalex)    
-* [gmail](kovalenko.alex04@gmail.com)    
-* [discord](kovaaalex)
+- [instagram](https://www.instagram.com/kovaaalex/)
+- [telegram](https://t.me/kovaaalex)    
+- [gmail](kovalenko.alex04@gmail.com)    
+- [discord](kovaaalex)
 ## About myself
 I'm 19 years old. I think that my main job currently is to study. I have a lot of goals. The most important goal is to be better than yesterday. Talking about strengths I underline
 * self-study and self-development
 * communication skils
 * listening skills and skills of asking questions
-___
 ## List of skills:
 - HTML5
 - CSS3 (Bootstrap)
@@ -18,7 +17,6 @@ ___
 - SQL (MySQL, MSSQL, PostgreSQL)
 - Git
 - Figma
-___
 ## Code example
 ```
 /* This function returns number of sorted digits by descending order */
@@ -33,10 +31,8 @@ ___
     }
 /* Example: n = 122351, function returns 532211 */
 ```
-___
 ## Education 
 Nowadays I'm a 2nd year student of the BSUIR (Faculty of Information Tecnologies and Control, major at the automated systems  of data processing). I chose this university because I like everything that have connect with programming and mathematics. Besides university I learn programming myself thanks to Learn/javascript.ru, habr, Result School and Rolling Scopes School.
-___
 ## Languages
 * Russian (native speaker)
 * Belarusian
