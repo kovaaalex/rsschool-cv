@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color: #181818;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.my__photo{
+    border-radius: 50%;
+    border: 5px solid #363636;
+    width: 150px;
+    height: 150px;
+}
+.my__photo img{
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-radius: 50%;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding-top: 15px;
+    font-size: 20px;
+}
+nav ul li{
+    padding: 0 20px;
+}
+main{
+    padding: 0 20px;
+}
+.sections{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+progress{
+    background-color: #372422;
+}
+#skills ul img{
+    width: 20px;
+    height: auto;
+}
+#skills ul li{
+    display: flex;
+    align-items: center;
+}
+#skills ul li span{
+    margin-left: 5px;
+}
+#university__articles{
+    display: flex;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer img{
+    height: 20px;
+    width: auto;
+}
