@@ -4,7 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <div id="rs__school">RS School</div>
+        <nav>
+            <ul>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#code__example">Code example</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <div class="my__photo">
+                <img src="img/photo.jpg" alt="myself photo">
+            </div>
+            <h2>About me</h2>
+            <p>
+                I'm 19 years old. I think that my main job currently is to study. 
+                I have a lot of goals. The most important goal is to be better than 
+                yesterday. Talking about strengths I underline self-study and self-development,
+                communication skils, listening skills and skills of asking questions.
+            </p>
+            <article id="contacts">
+                <h4>Contacts</h4>
+                <ul>
+                    <li><a href="https://www.instagram.com/kovaaalex/">Instagram</a></li>
+                    <li><a href="https://t.me/kovaaalex">Telegram</a></li>
+                    <li><a href="mailto:kovalenko.alex04@gmail.com">Gmail</a></li>
+                    <li><a href="https://discord.gg/JHVQWt6f">Discord</a></li>
+                </ul>
+            </article>
+            <article id="skills">
+                <h4>Skills</h4>
+                <ul>
+                    <li><img src="img/html.svg" alt="html"><span>HTML</span></li>
+                    <li><img src="img/css.svg" alt="css"><span>CSS</span></li>
+                    <li><img src="img/js.svg" alt="js"><span>JS</span></li>
+                    <li><img src="img/cpp.svg" alt="c++"><span>C++</span></li>
+                    <li><img src="img/sql.svg" alt="sql"><span>SQL(MySQL, PostgreSQL)</span></li>
+                    <li><img src="img/github.svg" alt="github"><span>Git(Github)</span></li>
+                    <li><img src="img/figma.svg" alt="figma"><span>Figma</span></li>
+                </ul>
+            </article>
+        </section>
+        <section id="info">
+        <h1>Aliaksei Kavalenka</h1>
+        <h5>Junior FrontEnd Developer</h5>
+        <div class="sections">
+            <section id="education">
+                <h2>Education</h2>
+                <div id="university__articles">
+                    <article>
+                        <h3>University</h3>
+                        <a href="https://www.bsuir.by/">Belarusian State University of Informatics and Radioelectronics</a>
+                    </article>
+                    <article>
+                        <h3>Cources</h3>
+                        <ul>
+                            <li><a href="https://rs.school/">RS School</a></li>
+                            <li><a href="https://result.school/products/marathon-js">Result School</a></li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h3>Trainings</h3>
+                        <ul>
+                            <li><a href="https://learn.javascript.ru/">learn.javascript.ru</a></li>
+                            <li><a href="https://www.w3schools.com/">W3schools</a></li>
+                            <li><a href="https://www.codewars.com/users/kovaaalex">Codewars</a></li>
+                            <li><a href="https://leetcode.com/problemset/">Leetcode</a></li>
+                            <li><a href="https://sql-ex.ru/">sql-ex.ru</a></li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+            <section id="code__example">
+                <h2>Code example</h2>
+                <p>It's simple task from Codewars(8lvl) in which you sorting digits in number in descending order</p>
+                <pre>
+                    <code>
+function descendingOrder(n){
+    if (n &lt; 0) return
+    let result = ""
+    let arrayOfDigits = Array.from(String(n), Number);
+    arrayOfDigits = arrayOfDigits.sort((a, b) => a > b ? -1 : 1)
+    for (let i of arrayOfDigits)
+        result += i
+    return +result
+}
+                </code>
+            </pre>
+            </section>
+            <section id="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>Russian(native speaker)</li>
+                    <li>Belarusian</li>
+                    <li>English(A2-B1)</li>
+                </ul>
+            </section>
+        </div>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Tecnologies (HTML, CSS, JS, Node.js, API, npm)
+            </p>
+            <article>
+                <h3>Calculator</h3>
+                <img src="img/calculator.jpg" alt="calculator">
+            </article>
+            <article>
+                <h3>Pipeline</h3>
+                <img src="img/pipeline.jpg" alt="pipeline">
+            </article>
+        </section>
+    </section>
+    </main>
+    <footer>
+        <ul>
+            <li>2024</li>
+            <li><a href="https://app.rs.school/profile"><img src="img/rs_school_js.svg" alt="rs_school_js"></a></li>
+            <li><a href="https://github.com/kovaaalex"><img src="img/github.svg" alt="github"></a></li>
+        </ul>
+    </footer>
 </body>
 </html>
